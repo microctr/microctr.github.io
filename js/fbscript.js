@@ -135,7 +135,7 @@ var callback = function (e){
             
             
 var hasMobileVersion=true;
-var hasBasicHtmlVersion=true;
+var hasBasicHtmlVersion=false;
 
 var callback = function (e){ 
     //Only execute if SWFObject embed was successful
@@ -211,4 +211,4 @@ function detectAndGoVersion(loadType){
     swfobject.createCSS("#flashContent", "display:block;text-align:left;");
 	}	 
 }
-detectAndGoVersion(2);
+detectAndGoVersion();
